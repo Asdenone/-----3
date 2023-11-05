@@ -55,7 +55,7 @@ def get_duck_image_url():
     res = requests.get(url)
     data = res.json()
     return data['url']
-
+ 
 
 @bot.command('duck')
 async def duck(ctx):
